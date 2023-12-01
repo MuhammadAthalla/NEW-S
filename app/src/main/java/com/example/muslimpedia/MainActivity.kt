@@ -41,10 +41,10 @@ class MainActivity : AppCompatActivity() {
             // Gantilah "R.drawable.ic_education", "R.drawable.ic_nature", dll.
             // dengan referensi gambar yang sesuai untuk setiap tab.
             when (position) {
-                0 -> tab.icon = ContextCompat.getDrawable(this, R.drawable.ic_bisnis)
-                1 -> tab.icon = ContextCompat.getDrawable(this, R.drawable.ic_nature)
-                2 -> tab.icon = ContextCompat.getDrawable(this, R.drawable.ic_sports)
-                3 -> tab.icon = ContextCompat.getDrawable(this, R.drawable.ic_politic)
+                0 -> tab.icon = ContextCompat.getDrawable(this, R.drawable.iconparkworld)
+                1 -> tab.icon = ContextCompat.getDrawable(this, R.drawable.ic_sharphomework)
+                2 -> tab.icon = ContextCompat.getDrawable(this, R.drawable.iconoir_gym)
+                3 -> tab.icon = ContextCompat.getDrawable(this, R.drawable.grommeticons_technology)
                 // Tambahkan lebih banyak case sesuai dengan jumlah tab yang Anda miliki
             }
         }.attach()

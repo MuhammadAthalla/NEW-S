@@ -9,13 +9,13 @@ interface ApiService {
 
     @GET("/v2/everything")
     fun getCommonMuslimNews(
-        @Query("q") q:String = "Business",
+        @Query("q") q:String = "World",
         @Query("language") language:String = "en",
     ): Call<NewsResponse>
 
     @GET("/v2/everything")
     fun getAlQuranNews(
-        @Query("q") q: String = "Nature",
+        @Query("q") q: String = "Work",
         @Query("language") language: String = "en"
     ): Call<NewsResponse>
 
@@ -29,7 +29,7 @@ interface ApiService {
 
     @GET("/v2/everything")
     fun getWarningForMuslimNews(
-        @Query("q") q: String = "Politic",
+        @Query("q") q: String = "Technology",
         @Query("language") language: String = "en"
     ): Call<NewsResponse>
 

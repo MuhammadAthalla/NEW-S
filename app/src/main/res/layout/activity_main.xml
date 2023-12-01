@@ -21,7 +21,7 @@
             android:layout_height="?attr/actionBarSize"
             android:background="@color/white"
             app:layout_scrollFlags="scroll|enterAlways"
-            app:logo="@drawable/logo_text"
+            app:logo="@drawable/news"
             app:popupTheme="@android:style/ThemeOverlay.Material.Dark" />
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -40,10 +40,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:elevation="0dp"
-        android:backgroundTint="@color/gold"
+        android:backgroundTint="@color/blue"
         app:tabIndicatorColor="@color/white"
-        app:tabSelectedTextColor="@color/white"
-        app:tabIconTint="@color/black"
+        app:tabSelectedTextColor="@color/black"
+        app:tabIconTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

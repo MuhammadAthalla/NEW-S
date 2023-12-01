@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit
 object ApiClient {
 
     private val BASE_URL = "https://newsapi.org"
-    private val API_KEY = "2e16f1c25499466abcaaf0f85b16ef97"
+    private val API_KEY = "599544d1a75540ad959c06a89af35ecd"
 
     fun provideApiService(): ApiService {
         val OkHttpClient = OkHttpClient.Builder()
